@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'g aseman';
+    src: url(fonts/g\ aseman.ttf);
+}
+
+@font-face {
+    font-family: 'A Piramooz B1';
+    src: url(fonts/A\ Piramooz\ B1.ttf);
+}
+
+@font-face {
+    font-family: 'ANafis';
+    src: url(fonts/ANafis.ttf);
+}
+
+body{
+    background-image: url(imgs/plantRegister.jfif);
+}
+
+.product-card h2 {
+    font-family: 'g aseman'; 
+    color: #000000;
+}
+
+.vertical-navbar {
+    background-color: darkslategrey;
+    width: 250px;
+    height: 600px;
+    overflow-y: scroll;
+    direction: rtl;
+    float: right;
+}
+
+.vertical-navbar a {
+    font-family: 'g aseman';
+    font-weight: bolder;
+    display: block;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    text-decoration: none;
+    color: #b4b4b4;
+    border-bottom: 1px solid #ffffff;
+}
+
+
+.product-cards-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  
+}
+
+.product-card {
+    background-color: #ffffff;
+    width: 200px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(102, 102, 102, 0.911);
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-family:'g aseman';
+    color: rgb(80, 150, 80);
+    border: 2px solid rgb(54, 54, 54);
+    border-radius: 15%; 
+    font-weight: bold;
+}
+
+.content {
+    font-family: 'ANafis'; 
+    color: darkslategrey;
+}
+
+ @media (max-width: 800px) {
+
+    .vertical-navbar {
+        width:100%;
+        height:  auto;
+        float:none;
+
+    }
+    .vertical-navbar a{
+        width: 100%;
+    }
+    
+}   
